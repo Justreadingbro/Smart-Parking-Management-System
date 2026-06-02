@@ -1,0 +1,7 @@
+{
+  "baseRate": 50,
+  "perSecondRate": 1,
+  "maxSlotsPerCamera": 4,
+  "updateInterval": 2,
+  "cameraUrl": "http://192.168.29.30:8080/video"
+}

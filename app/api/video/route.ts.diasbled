@@ -1,0 +1,37 @@
+// // app/api/video/route.ts
+// import { NextResponse } from "next/server";
+
+// const CAMERA_BACKENDS: Record<string, string> = {
+//   "1": "http://localhost:8000/video_feed/1",
+//   "2": "http://localhost:8000/video_feed/1",
+//   "3": "http://localhost:8000/video_feed/1",
+//   "4": "http://localhost:8000/video_feed/1",
+// };
+
+// export async function GET(req: Request) {
+//   try {
+//     const url = new URL(req.url);
+//     const cam = url.searchParams.get("camera") || "1";
+//     const upstream = CAMERA_BACKENDS[cam];
+
+//     if (!upstream) {
+//       return NextResponse.json({ error: "Camera not configured" }, { status: 404 });
+//     }
+
+//     const upstreamRes = await fetch(upstream, { method: "GET" });
+
+//     if (!upstreamRes.ok) {
+//       console.error(`[v0] Upstream returned ${upstreamRes.status} for ${upstream}`);
+//       return NextResponse.json({ error: "Upstream stream unavailable" }, { status: upstreamRes.status });
+//     }
+
+//     // Forward upstream headers to preserve Content-Type (multipart boundary)
+//     const headers = new Headers();
+//     upstreamRes.headers.forEach((v, k) => headers.set(k, v));
+
+//     return new NextResponse(upstreamRes.body, { status: 200, headers });
+//   } catch (err) {
+//     console.error("[v0] Proxy error:", err);
+//     return NextResponse.json({ error: "Proxy internal error" }, { status: 500 });
+//   }
+// }
