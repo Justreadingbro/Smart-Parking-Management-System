@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/Final%20Project/smart-parking-system/app/user/dashboard/page.tsx"],"sourcesContent":["export default function UserDashboard() {\r\n  return (\r\n    <div className=\"p-8\">\r\n      <h1 className=\"text-3xl font-bold\">\r\n        User Dashboard\r\n      </h1>\r\n\r\n      <p>\r\n        Parking information will appear here.\r\n      </p>\r\n    </div>\r\n  )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BAInC,8OAAC;0BAAE;;;;;;;;;;;;AAKT"}}]
-}

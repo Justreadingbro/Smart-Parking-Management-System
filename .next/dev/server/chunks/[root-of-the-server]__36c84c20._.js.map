@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///D:/Final%20Project/smart-parking-system/app/api/auth/logout/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\"\r\n\r\nexport async function POST() {\r\n  const response =\r\n    NextResponse.json({\r\n      success: true,\r\n    })\r\n\r\n  response.cookies.delete(\"token\")\r\n\r\n  return response\r\n}"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe;IACpB,MAAM,WACJ,gJAAY,CAAC,IAAI,CAAC;QAChB,SAAS;IACX;IAEF,SAAS,OAAO,CAAC,MAAM,CAAC;IAExB,OAAO;AACT"}}]
-}

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/Final%20Project/smart-parking-system/app/payments/page.tsx"],"sourcesContent":["export default function PaymentsPage() {\r\n  return (\r\n    <div className=\"p-8\">\r\n      <h1 className=\"text-3xl font-bold\">\r\n        Payments\r\n      </h1>\r\n\r\n      <div className=\"mt-6 rounded-lg border p-6\">\r\n        <h2 className=\"text-xl\">\r\n          Outstanding Amount\r\n        </h2>\r\n\r\n        <p className=\"text-4xl font-bold mt-4\">\r\n          ₹0\r\n        </p>\r\n\r\n        <img\r\n          src=\"/upi-qr.png\"\r\n          alt=\"UPI QR\"\r\n          className=\"w-64 mt-6\"\r\n        />\r\n\r\n        <p className=\"mt-4\">\r\n          UPI ID:\r\n          smartparking@upi\r\n        </p>\r\n      </div>\r\n    </div>\r\n  )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BAInC,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;wBAAG,WAAU;kCAAU;;;;;;kCAIxB,8OAAC;wBAAE,WAAU;kCAA0B;;;;;;kCAIvC,8OAAC;wBACC,KAAI;wBACJ,KAAI;wBACJ,WAAU;;;;;;kCAGZ,8OAAC;wBAAE,WAAU;kCAAO;;;;;;;;;;;;;;;;;;AAO5B"}}]
-}
