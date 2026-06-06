@@ -1,17 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/analytics/page": "app/analytics/page.js",
   "/api/auth/login/route": "app/api/auth/login/route.js",
   "/api/auth/logout/route": "app/api/auth/logout/route.js",
   "/api/me/route": "app/api/me/route.js",
-  "/api/my-parking/route": "app/api/my-parking/route.js",
   "/api/parking-data/route": "app/api/parking-data/route.js",
-  "/api/settings/route": "app/api/settings/route.js",
-  "/cameras/page": "app/cameras/page.js",
-  "/history/page": "app/history/page.js",
   "/login/page": "app/login/page.js",
-  "/page": "app/page.js",
-  "/payments/page": "app/payments/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/settings/page": "app/settings/page.js"
+  "/page": "app/page.js"
 }

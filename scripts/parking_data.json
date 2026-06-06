@@ -1,105 +1,14 @@
 {
   "slots": {
     "A-001": {
-      "status": "available",
-      "license_plate": "",
-      "licensePlate": "",
-      "entry_time": null,
-      "entryTime": null,
-      "amount": 0,
-      "bill": 0
+      "status": "occupied",
+      "license_plate": "MH20EE7602",
+      "licensePlate": "MH20EE7602",
+      "entry_time": "2026-06-04T10:46:32.009059",
+      "entryTime": "2026-06-04T10:46:32.009059",
+      "amount": 120,
+      "bill": 120
     }
   },
-  "history": [
-    {
-      "id": "1780417768991",
-      "slotId": "A-001",
-      "licensePlate": "MH20EE7602",
-      "entryTime": "2026-06-02T21:59:13.633682",
-      "exitTime": "2026-06-02T21:59:28.991865",
-      "amount": 62,
-      "status": "completed"
-    },
-    {
-      "id": "1780417787489",
-      "slotId": "A-001",
-      "licensePlate": "MH20EE7602",
-      "entryTime": "2026-06-02T21:59:34.652352",
-      "exitTime": "2026-06-02T21:59:47.489589",
-      "amount": 59,
-      "status": "completed"
-    },
-    {
-      "id": "1780417886293",
-      "slotId": "A-001",
-      "licensePlate": "",
-      "entryTime": "2026-06-02T22:01:22.857769",
-      "exitTime": "2026-06-02T22:01:26.293456",
-      "amount": 50,
-      "status": "completed"
-    },
-    {
-      "id": "1780417895278",
-      "slotId": "A-001",
-      "licensePlate": "",
-      "entryTime": "2026-06-02T22:01:28.763980",
-      "exitTime": "2026-06-02T22:01:35.278300",
-      "amount": 53,
-      "status": "completed"
-    },
-    {
-      "id": "1780417919311",
-      "slotId": "A-001",
-      "licensePlate": "",
-      "entryTime": "2026-06-02T22:01:37.757932",
-      "exitTime": "2026-06-02T22:01:59.301852",
-      "amount": 68,
-      "status": "completed"
-    },
-    {
-      "id": "1780417924129",
-      "slotId": "A-001",
-      "licensePlate": "",
-      "entryTime": "2026-06-02T22:01:59.822057",
-      "exitTime": "2026-06-02T22:02:04.127744",
-      "amount": 51,
-      "status": "completed"
-    },
-    {
-      "id": "1780417935904",
-      "slotId": "A-001",
-      "licensePlate": "",
-      "entryTime": "2026-06-02T22:02:04.862174",
-      "exitTime": "2026-06-02T22:02:15.880159",
-      "amount": 57,
-      "status": "completed"
-    },
-    {
-      "id": "1780417963156",
-      "slotId": "A-001",
-      "licensePlate": "",
-      "entryTime": "2026-06-02T22:02:20.810775",
-      "exitTime": "2026-06-02T22:02:43.153982",
-      "amount": 69,
-      "status": "completed"
-    },
-    {
-      "id": "1780417978663",
-      "slotId": "A-001",
-      "licensePlate": "MH20EE7602",
-      "entryTime": "2026-06-02T22:02:46.327241",
-      "exitTime": "2026-06-02T22:02:58.663542",
-      "amount": 59,
-      "status": "completed"
-    },
-    {
-      "id": "1780417999695",
-      "slotId": "A-001",
-      "licensePlate": "MH20EE7602",
-      "entryTime": "2026-06-02T22:03:10.351570",
-      "exitTime": "2026-06-02T22:03:19.688867",
-      "amount": 56,
-      "status": "completed"
-    }
-  ]
+  "history": []
 }

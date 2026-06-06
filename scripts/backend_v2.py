@@ -16,7 +16,7 @@ from flask_cors import CORS
 from collections import defaultdict, Counter
 
 
-CAMERA_URL = 'http://192.168.29.30:8080/video'  # For home wifi IP Webcam app
+CAMERA_URL = 'http://192.0.0.4:8080/video'  # For home wifi IP Webcam app
 # CAMERA_URL = 'http://192.0.0.4:8080/video'  # Need to change in university
 SLOT_FILE = 'slot_coordinates.pickle'
 STREAM_HOST = '0.0.0.0'
@@ -37,7 +37,7 @@ OCR_INTERVAL = 2  # seconds
 # MAX_OCR_ATTEMPTS = 5
 last_ocr_attempt = {}
 last_seen_time = {}
-FREE_GRACE_SECONDS = 3
+FREE_GRACE_SECONDS = 60
 ocr_history = defaultdict(list)
 OCR_CONFIRM_COUNT = 3
 OCR_HISTORY_LIMIT = 5
@@ -350,15 +350,7 @@ def update_parking_data(occupancy_data, frame):
                     "status": "completed"
                 })
 
-                parking_data[slot_id] = {
-                    'status': 'available',
-                    'license_plate': '',
-                    'licensePlate': '',
-                    'entry_time': None,
-                    'entryTime': None,
-                    'amount': 0,
-                    'bill': 0
-                }
+                parking_data[slot_id]['status'] = 'available'
 
                 parking_changed = True
 
